@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  private tieNumber;
+  ngOnInit() {
+    this.tieNumber=Array(37).fill(0);
+  }
+
 }

@@ -1,0 +1,8 @@
+.red{
+  position: absolute;
+  width:30px;
+  height:30px;
+  background-color: red;
+  top:45%;
+  left:45%;
+}
