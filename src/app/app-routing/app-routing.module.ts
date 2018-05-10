@@ -3,7 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import {InfowindowComponent} from '../infowindow/infowindow.component';
 const routes: Routes = [
     {
-        path: 'info',
+        path: 'info/:id',
         component: InfowindowComponent
       }
   ];

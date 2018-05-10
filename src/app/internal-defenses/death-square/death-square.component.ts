@@ -5,12 +5,15 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './death-square.component.html',
   styleUrls: ['./death-square.component.css']
 })
+
 export class DeathSquareComponent implements OnInit {
-  private turretNumber;
+  private turretNumber= [];
   constructor() { }
 
   ngOnInit() {
-    this.turretNumber = Array(84).fill(0);
+    for(let i =1 ; i<85; i++){
+      this.turretNumber.push(i);
+    }
   }
 
 }

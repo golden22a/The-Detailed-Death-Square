@@ -1,5 +1,4 @@
-import { Component, OnInit } from '@angular/core';
-
+import { Component, OnInit,Input } from '@angular/core';
 @Component({
   selector: 'app-turret',
   templateUrl: './turret.component.html',
@@ -7,6 +6,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TurretComponent implements OnInit {
   private turret;
+  @Input('num')
+   num: number;
+
   constructor() { }
 
   ngOnInit() {

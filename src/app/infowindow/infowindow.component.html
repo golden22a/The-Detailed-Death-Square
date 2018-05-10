@@ -1,5 +1,6 @@
 <div class='container'>
-<p>
-Turret is functional
-</p>
+<ul *ngIf="dataBank">
+  <li>{{dataBank.turretNumber}}</li>
+    <li>{{dataBank.damage}}</li>
+</ul>
 </div>
